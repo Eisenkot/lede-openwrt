@@ -36,12 +36,3 @@ config interface 'wan6'
 	option proto 'none'
 	option delegate '0'
 
-config interface 'docker'
-	option ifname 'docker0'
-	option proto 'none'
-	option auto '0'
-
-config device
-	option type 'bridge'
-	option name 'docker0'
-
