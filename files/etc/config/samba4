@@ -12,7 +12,6 @@ config sambashare
 	option read_only 'no'
 	option guest_ok 'yes'
 	option dir_mask '0777'
-	option device 'sda1'
 	option inherit_owner 'yes'
 	option name 'Discuzamoy'
 	option path '/mnt/sda4'
