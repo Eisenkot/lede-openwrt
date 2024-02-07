@@ -28,7 +28,7 @@ config dhcp 'wan'
 
 config srvhost
 	option srv '_vlmcs._tcp'
-	option target 'Discuzamoy'
+	option target 'Mi-OpenWrt'
 	option port '1688'
 	option class '0'
 	option weight '100'
