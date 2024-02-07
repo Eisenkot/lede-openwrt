@@ -14,7 +14,7 @@
 # echo '### Updates default IP gate ###'
 # sed -i 's/192.168.1.1/10.1.1.10/g' package/base-files/files/bin/config_generate
 # echo '###  ###'
-
+sed -i 's/stripped/release/g' feeds/packages/multimedia/aliyundrive-webdav/Makefile
 # echo '### Updates Theme Argon ###'
 # package/lean/luci-theme-argon /package/feeds/luci/luci-theme-argon
 # rm -rf package/feeds/luci/luci-theme-argon
