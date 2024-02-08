@@ -3,7 +3,7 @@ config samba
 	option workgroup 'WORKGROUP'
 	option charset 'UTF-8'
 	option name 'Discuzamoy'
-	option description 'Mi-OpenWrt'
+	option description 'OpenWRT'
 	option homes '1'
 	option macos '0'
 

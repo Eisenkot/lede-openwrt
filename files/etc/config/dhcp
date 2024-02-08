@@ -14,7 +14,10 @@ config dnsmasq
 	option filter_aaaa '1'
 	option cachesize '0'
 	option resolvfile '/tmp/resolv.conf.d/resolv.conf.auto'
+	list server '127.0.0.1#7053'
 	option rebind_protection '0'
+	option domainneeded '0'
+	option noresolv '0'
 
 config dhcp 'lan'
 	option interface 'lan'
@@ -28,7 +31,7 @@ config dhcp 'wan'
 
 config srvhost
 	option srv '_vlmcs._tcp'
-	option target 'Mi-OpenWrt'
+	option target 'Discuzamoy'
 	option port '1688'
 	option class '0'
 	option weight '100'
