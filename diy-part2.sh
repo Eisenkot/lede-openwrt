@@ -18,6 +18,6 @@ sed -i 's/stripped/release/g' feeds/packages/multimedia/aliyundrive-webdav/Makef
 # echo '### Updates Theme Argon ###'
 # package/lean/luci-theme-argon /package/feeds/luci/luci-theme-argon
 # rm -rf package/feeds/luci/luci-theme-argon
-# git clone -b luci-smartdns-dev https://github.com/xiaorouji/openwrt-passwall.git package/passwall
+git clone -b luci-smartdns-dev https://github.com/xiaorouji/openwrt-passwall.git package/passwall
 # git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 # echo '###  ###'
