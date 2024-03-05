@@ -132,7 +132,9 @@ jobs:
         echo '######################'
         echo $GITHUB_ENV
         echo '######################'
-        
+      env:
+       CGO_ENABLED: 1
+       
     - name: Check space usage
       if: (!cancelled())
       run: df -hT
